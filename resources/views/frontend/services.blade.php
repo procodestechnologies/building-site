@@ -1,3 +1,13 @@
-<div>
-    <!-- The whole future lies in uncertainty: live immediately. - Seneca -->
-</div>
+@extends('welcome')
+@section('content')
+
+        <!-- Carousel Start -->
+        <x-header/>
+        <!-- Carousel End -->
+
+        <!-- Services Start -->
+        <x-services/>
+        
+        <!-- Services End -->
+
+@endsection

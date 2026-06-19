@@ -1,3 +1,13 @@
-<div>
-    <!-- It always seems impossible until it is done. - Nelson Mandela -->
-</div>
+@extends('welcome')
+@section('content')
+
+        <!-- Carousel Start -->
+        <x-header/>
+        <!-- Carousel End -->
+
+        <!-- Contact Start -->
+        <x-contact/>
+        
+        <!-- Contact End -->
+
+@endsection
